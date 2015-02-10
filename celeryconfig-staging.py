@@ -1,0 +1,9 @@
+# RabbitMQ::BLM
+BROKER_HOST = "72.10.53.53"
+BROKER_PORT = 5672
+BROKER_USER = "blm-stage"
+BROKER_PASSWORD = "m0nkeP4w7"
+BROKER_VHOST = "blmvhost-stage"
+
+# Celery
+CELERY_RESULT_BACKEND = "amqp"
